@@ -88,3 +88,78 @@
 
 </body>
 </html>
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #123456;
+    border-bottom: 2px solid #123456;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #2874a6;
+}
+
+/* List Styling */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Mobile Phone Styling */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+
+
